@@ -29,8 +29,8 @@ jobs:
     - name: Build, test, tag, and push image to Amazon ECR
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORYDB: akashdbrepo
-        ECR_REPOSITORYWEB: akashwebecrrepo
+        ECR_REPOSITORYDB: akash7dbrepo
+        ECR_REPOSITORYWEB: akash7webecrrepo
         IMAGE_TAG: akash0.1
       run: |
         # Docker build
