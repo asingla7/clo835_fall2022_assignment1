@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: 526869667456.dkr.ecr.us-east-1.amazonaws.com/mysql_db:v0.1
+        image: 294203522159.dkr.ecr.us-east-1.amazonaws.com/akash7dbrepo:akash0.1
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: "asingla7#169498219"

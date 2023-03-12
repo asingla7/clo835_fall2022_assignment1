@@ -17,3 +17,5 @@ config.tf
 ec2.tf
 output.tf
 sg.tf
+init_kind.sh
+kind.yaml
