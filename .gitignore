@@ -13,3 +13,7 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+config.tf
+ec2.tf
+output.tf
+sg.tf
